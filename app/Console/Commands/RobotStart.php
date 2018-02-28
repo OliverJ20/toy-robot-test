@@ -191,7 +191,7 @@ class RobotStart extends Command
     }
     public function report()
     {
-        $report = 'The robot is at '. $this->robotPlace['x'] . ',' . $this->robotPlace['y'] . ',' .$this->direction;
+        $report = 'it is at '. $this->robotPlace['x'] . ',' . $this->robotPlace['y'] . ',' .$this->direction;
         return $report;
     }
 
@@ -223,7 +223,7 @@ class RobotStart extends Command
             }
             elseif($command_text[$i] == 'REPORT')
             {
-                $this->line('the robot reports ' . $this->report());
+                $this->line('The robot reports ' . $this->report());
             }
         }
     }
