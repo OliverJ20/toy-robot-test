@@ -1,6 +1,6 @@
 ## Toy Robot Simulation by Oliver Johnson - PHP laravel version
 
-###Problem Description 
+#### Problem Description 
 Toy Robot Simulator
 Description:The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 There are no other obstructions on the table surface. The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. 
@@ -27,7 +27,7 @@ Output for test1.txt = The robot reports it is at 5,5,North
 Output for test2.txt = The robot reports it is at 0,0,EAST
 Output for test3.txt = The robot reports it is at 3,3,West
 
-####NOTES
+#### NOTES
 
 When creating your own text files make sure to place them in the same location as the test1.txt etc files.
 
